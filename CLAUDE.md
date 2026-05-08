@@ -21,6 +21,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - Check root files: `ls -la`
 - Check extension contents: `ls -la extension`
+- Merge docs markdown: `python3 make/merge_docs.py`
 
 ### Image helper scripts
 
@@ -130,6 +131,8 @@ Derived adapters (`gemini.js`, `ai_studio.js`, `gemini_enterprise.js`, `dynamic.
 - `extension/pages/uninstall.html`: uninstall feedback page set through `chrome.runtime.setUninstallURL`
 - root `index.html`: public landing page / promo site, not part of the extension runtime
 - root `privacy.html`: static privacy page
+- root `code-reward-models.md`: research note comparing open code reward models, pairwise training, and pairwise-vs-scalar inference
+- `docs/`: study-oriented architecture notes for learning this repository and cloning its extension patterns; start at `docs/README.md`
 
 ## Project-specific constraints
 
